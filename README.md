@@ -8,5 +8,9 @@ To use TrueSightKiller, you need to have the `truesight.sys` driver located at t
 1) Block this driver through WDAC or wait till Microsoft do it (at your own risk)
 2) Limit local privileges, audit and prevent privesc attacks.
 
+## POC
+![poc-edr-killer](https://github.com/MaorSabag/TrueSightKiller/assets/75939197/3912ca37-491e-4d3e-9eb0-3e600b729e08)
+
+
 ## Disclaimer
 Please use TrueSightKiller responsibly. It is designed for legitimate security testing and should not be used for malicious purposes.
