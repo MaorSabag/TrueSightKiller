@@ -143,11 +143,6 @@ BOOL LoadDriverByName(wchar_t* driverName) {
     if (hService == NULL) {
 		// Create the service
         std::wcout << L"[+] Creating service: truesight" << std::endl; // "Creating service
-
-        // Get the current location of the executable and append the driver name
-        WCHAR path[MAX_PATH];
-        GetModuleFileNameW(NULL, path, MAX_PATH);
-        
         wchar_t pathCStr[MAX_PATH];
 
         if (GetCurrentDirectory(MAX_PATH, pathCStr) != 0) {
